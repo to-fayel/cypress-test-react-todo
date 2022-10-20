@@ -14,7 +14,7 @@ describe('App Component', () => {
         cy.url().should('eq', 'http://localhost:3000/')
 
         cy.title().should('include', 'React')
-        cy.title().should('eq', 'React App-2')
+        cy.title().should('eq', 'React App')
     })
 
     it('Verify input and button', () => {
